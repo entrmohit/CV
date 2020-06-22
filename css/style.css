@@ -1,0 +1,174 @@
+body{
+  font-family: "Montserrat",sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat';
+  font-weight: 900;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+.top-heading{
+  color: #fff;
+  font-family:'Montserrat',sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.price-tag{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+.top-head{
+  padding:2% 5% 2% 5%;
+  text-decoration: underline;
+}
+
+.feature-title{
+  font-size:1.5rem;
+  padding-right: 10%;
+}
+
+
+.container-fluid{
+  padding: 7% 15% ;
+}
+.pro-section .container-fluid{
+  padding: 1% 15%;
+}
+/* Colored and White Section  */
+.colored-section{
+  background-color: #ff4c68;
+  color:#fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+/* Navigation-Bar */
+.navbar{
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 10px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat-light';
+}
+
+/* Title section */
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align:left;
+}
+
+/* Download buttons */
+.downl-button{
+margin:5% 3% 5% 0;
+}
+
+/* Title - Image */
+.t-image{
+  width:60%;
+  transform: rotate(10deg);
+  position:absolute;
+  right:10%;
+}
+
+/* Features-section */
+#features{
+  position: relative;
+}
+
+.feature-box{
+  padding: 5%;
+}
+
+.icon{
+  margin-bottom:10%;
+  color: #ef8172;
+}
+
+#testimonials{
+  background-color: #ef8172;
+  color:#fff;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 50%;
+  margin:20px 20px 50px;
+}
+
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width:15%;
+  margin:15px;
+}
+
+#testimonial-carousel{
+  font-weight: lighter;
+  width:100%;
+}
+
+/* pricing section */
+.price-coloumn{
+  padding:3% 2%;
+}
+
+@media (max-width:1150px){
+  .t-image{
+    position:static;
+    transform:rotate(0);
+  }
+#title{
+    text-align: center;
+  }
+}
+
+ /*  Footer Section  */
+#footer{
+  background-color: #fff;
+  padding-bottom: 0;
+}
+
+.icons{
+  margin:10px;
+}
+.copyright{
+  visibility: hidden;
+}
+
+.pro-section{
+  background-color: #ff4c68;
+  color:#fff;
+  font-size: 2rem;
+  padding-bottom: 0%;
+}
